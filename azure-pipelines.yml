@@ -1,0 +1,11 @@
+trigger:
+- master
+
+pr:
+- master
+
+pool:
+  vmImage: macOS-latest
+
+steps:
+- script: echo "hello"
